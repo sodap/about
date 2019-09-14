@@ -37,12 +37,12 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', sans-serif; }
 
-p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
+p{ line-height: 1.6; font-size: 1.6em; font-weight: 500; color: #555; }
 
 h1{ font-size: 3.5em; line-height: 1; }
 h2{ font-size: 3em; line-height: 1.1; }
 h3{ font-size: 2.5em; }
-h4{ font-size: 1.5em; }
+h4{ font-size: 2em; font-syle: italic }
 h5{ font-size: 1.2em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
@@ -111,15 +111,16 @@ b.light-color{ color: #444; }
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ font-family:'Poppins', sans-serif;position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; background-position: center; color: #889; }
+.main-area{ font-family:'Poppins', sans-serif;position: relative; height: 100vh; z-index: 1; padding: 0 10px; background-repeat: no-repeat;  background-size: contain; background-position: top; color: #889; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: .0; background: #889; }
 
-.main-area .logo{width: 70%; max-width: 350px; margin: 20px auto;}	
+.main-area .logo{width: 70%; max-width: 350px; margin: 60px auto 10px auto;}	
+
 .main-area .google-play{width: 205px; height: 61px; margin: 20px auto;}	
 
-.main-area .desc{font-family:'Poppins', sans-serif; margin: 20px auto; width: 80%; max-width: 550px; text-align:center}
+.main-area .desc{font-family:'Poppins', sans-serif; margin: 40px auto; width: 80%; max-width: 550px; text-align:center}
 
 .main-area .call-to-action{font-weight: bold; margin: 0px auto; margin-top: 40px; margin-bottom: 10px; max-width: 500px; text-align: center}
 	
@@ -137,15 +138,14 @@ b.light-color{ color: #444; }
 
 .main-area .social-btn > li > a:hover:after{ transform: translateX(100%); }
 
-.main-area .email-input-area  {position: relative; text-align: center; margin: 40px auto;}
+.main-area .email-input-area  {position: relative; width: auto; max-width:550px; text-align: center; margin: 20px auto; background: rgba(0,0,0,0.5); padding: 10px; padding-top: 40px; border-radius: 8px 8px 8px 8px;}
 
 .main-area .email-input-area .email-input{font-family: 'Poppins', sans-serif; position:relative; width: 60%; max-width: 350px; height:48px; top: 0; bottom: 0; left: 0; right: 0; 
-	border-radius: 4px; border: 0; outline: 0; padding: 0 90px 0 20px; background: #F1F2F3; 
+	border-radius: 4px; border: 0; outline: 0; padding: 0px 0px 0px 10px; background: #F1F2F3; font-size: 1.6em;
 	box-shadow: inset 0 0 1px rgba(0,0,0,.1); border: 1px solid transparent;}
 
-.main-area .email-input-area .email-input:focus{ border-color: #f89fbc; }
+.main-area .email-input-area .email-input:focus{ border-color: #f60; }
 
-
-.main-area .email-input-area .submit-btn{font-family: 'Poppins', sans-serif; font-weight: bold; padding: 4px 4px; position:absolute; width: 80px; height:42px; font-weight: bold; margin-left: -80px; font-size: .9em; outline: 0; border-radius: 4px 4px 4px 4px; background: #ff6600; color: #fff; transition: none; box-shadow: inset 0 -4px 0 #993300;}
+.main-area .email-input-area .submit-btn{font-family: 'Poppins', sans-serif; font-weight: bold; padding: 4px 4px; position:relative; width: auto; height:48px; font-weight: bold; margin: auto; margin-top:20px; font-size: 1.6em; outline: 0; border-radius: 4px 4px 4px 4px; background: #ff6600; color: #fff; transition: none; box-shadow: inset 0 -4px 0 #993300;}
 
 .main-area .email-input-area .submit-btn:hover{ background: #ff7700; }
