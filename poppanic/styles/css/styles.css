@@ -160,6 +160,7 @@ b.light-color{ color: #444; }
     padding: 0;
 	text-align: center;
 	margin: 0 auto;
+	width: 60%;
 }
 
 .tz-gallery .lightbox img {
@@ -207,8 +208,13 @@ b.light-color{ color: #444; }
 	text-align: center;
 }
 
+@media(max-width:332px) {
+	.optional-narrow {
+		display: none;
+	}
+}
 
-@media(max-width: 768px) {
+@media(max-width: 1350px) {
     body {
         padding: 0;
     }
@@ -217,8 +223,16 @@ b.light-color{ color: #444; }
         border-radius: 0;
     }
 }
+@media (max-width: 1350px) {
+	.tz-gallery {
+    padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	}
+}
 
-@media (max-width: 450px) {
+@media (max-width: 1350px) {
 	.optional {
 		display: none;
 	}
