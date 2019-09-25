@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
 		
 	<link href="styles/css/styles.css" rel="stylesheet">
+	<link href="styles/css/baguetteBox.min.css" rel="stylesheet">
+	
 	
 	<link href="styles/css/responsive.css" rel="stylesheet">
 	
@@ -33,16 +35,59 @@
 				<h1 class="title font-white">
 					<img class="logo" src="images/poppanic-logo.png" alt="Pop Panic"></a>
 				</h1>
-			
-			
+				
+
+				 <div class="tz-gallery">
+
+						<ul class="row">
+							<li class="column">
+								<a class="lightbox" href="images/gallery/screenshot1.png">
+									<img src="images/gallery/screenshot1.png" alt="Screenshot 1">
+								</a>
+							</li>
+							<li class="column optional">
+								<a class="lightbox" href="images/gallery/screenshot2.png">
+									<img  class="optional" src="images/gallery/screenshot2.png" alt="Screenshot 2">
+								</a>
+							</li>
+							<li class="column optional">
+								<a class="lightbox" href="images/gallery/screenshot3.png">
+									<img class="optional" src="images/gallery/screenshot3.png" alt="Screenshot 3">
+								</a>
+							</li>
+							<li class="column">
+								<a class="lightbox" href="images/gallery/screenshot4.png">
+									<img src="images/gallery/screenshot4.png" alt="Screenshot 4">
+								</a>
+							</li>
+							<li class="column optional">
+								<a class="lightbox" href="images/gallery/screenshot5.png">
+									<img class="optional" src="images/gallery/screenshot5.png" alt="Screenshot 5">
+								</a>
+							</li>
+						</ul>
+
+				</div>
+
+				
 				<p class="desc font-white">
-					Hi. I'm <a href="http://www.edualonso.es">Edu Alonso.</a> I'm an independent game designer from Spain.
+					Hi. I'm <a href="http://www.edualonso.es">Edu Alonso.</a> I am an independent game designer from Spain.
 				</p>
 				
 				<p class="desc font-white">
-					I made Pop Panic in 2019 along with <a href="http://www.modulationmusic.es">Hernán Marandino,</a> 
+					Pop Panic is a very simple game for touch devices. You have to keep popping the balls to get the highest score.
+				</p>
+				
+				<p class="desc font-white">
+					I made this game in 2019 along with <a href="http://www.modulationmusic.es">Hernán Marandino,</a> 
 					who created the amazing sounds and music.
 				</p>
+				
+				<p class="desc font-white">
+					We hope you enjoy our game! If you like it, 
+					remember to rate Pop Panic in the store. It will really help us.
+				</p>
+				
 				
 				<div class="email-input-area">
 					<!-- Begin Mailchimp Signup Form -->
@@ -60,7 +105,7 @@
 						</div>
 					</form>
 						<p class="desc font-white">
-							If you want to know when I publish a new game, please subscribe to my newsletter.
+							Do you want to know more about my games? Subscribe to my newsletter!
 						</p>
 					</div>
 					
@@ -82,6 +127,11 @@
 			</div><!-- display-table -->
 		</div><!-- display-table-cell -->
 	</div><!-- main-area -->
+
+<script src="scripts/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 	
 </body>
 </html>
